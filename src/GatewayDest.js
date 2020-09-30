@@ -13,7 +13,8 @@ export default class GatewayDest extends React.Component {
     tagName: deprecated(PropTypes.string, 'Use "component" instead.'),
     component: PropTypes.oneOfType([
       PropTypes.string,
-      PropTypes.func
+      PropTypes.func,
+      PropTypes.node
     ])
   };
 
