@@ -14,7 +14,8 @@ export default class GatewayDest extends React.Component {
     component: PropTypes.oneOfType([
       PropTypes.string,
       PropTypes.func,
-      PropTypes.element
+      PropTypes.element,
+      PropTypes.object,
     ])
   };
 
